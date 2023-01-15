@@ -9,7 +9,7 @@ import tortilla from "../images/sides/tortilla.png";
 
 function SideForm(props) {
   return (
-    <>
+    <React.Fragment>
       <h1>
         <label htmlFor="sides">Sides</label>
       </h1>
@@ -139,6 +139,8 @@ function SideForm(props) {
           </div>
         </div>
       </div>
-    </>
+    </React.Fragment>
   );
 }
+
+export default SideForm;

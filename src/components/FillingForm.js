@@ -7,7 +7,7 @@ import whiteRice from "../images/fillings/white-rice.png";
 
 function FillingForm(props) {
   return (
-    <>
+    <React.Fragments>
       <h1>
         <label htmlFor="fillings">Fillings</label>
       </h1>
@@ -112,7 +112,7 @@ function FillingForm(props) {
           </div>
         </div>
       </div>
-    </>
+    </React.Fragments>
   );
 }
 
